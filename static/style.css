@@ -1,0 +1,95 @@
+.skyrim {
+    color:rgb(133, 25, 25);
+    text-shadow: 1px 1px 1px black;
+    background: rgba(0, 0, 0, 0.22);
+    font-weight: bold;
+    font-size: 5vw;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.spells {
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    font-size: 2vw;
+    padding: 10px;
+    position:absolute;
+    bottom: 10%;
+    right: 30%;
+    text-align: center;
+    display: inline-block;
+}
+
+.locations{
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    font-size: 2vw;
+    padding: 10px;
+    position:absolute;
+    bottom: 10%;
+    left: 32.5%;
+    text-align: center;
+    display: inline-block;
+}
+
+.equipment{
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    font-size: 2vw;
+    padding: 10px;
+    position:absolute;
+    bottom: 10%;
+    left: 10%;
+    text-align: center;
+    display: inline-block;
+}
+
+.items{
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    font-size: 2vw;
+    padding: 10px;
+    position:absolute;
+    bottom: 10%;
+    right: 10%;
+    display: inline-block;
+}
+
+body {
+    background-image: url('/opt/lampp/htdocs/skyround/images/start.jpg');
+    background-size: 100%;
+}
+
+@media all and (max-width: 1000px), all and (max-height: 600px) {
+    body {
+        background-image: url('/opt/lampp/htdocs/skyround/images/mobile.gif');
+        background-size: 100%;
+    }
+}
+
+a {
+    text-decoration:none; 
+    color: white;
+}
+
+a:hover {
+    color: rgb(59, 145, 56);
+    transition: 0.4s;
+}
+
+a:not(:hover) {
+    transition-property: color;
+    transition-duration: 0.4s;
+}
+
+footer {
+    display: inline-block;
+    position: absolute;
+    bottom: 0%;
+    color: rgb(136, 136, 136);
+}

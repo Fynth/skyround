@@ -1,0 +1,30 @@
+body {
+    background-image: url('/home/rasul/Документы/skyround/images/spells_art.jpg');
+    background-size: 100%;
+}
+.spells_list {
+    background-color:rgba(255, 255, 255, 0.3);
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 40px;
+}
+figure {
+    display: inline-block;
+    background-color:rgba(59, 11, 68, 0.5);
+    box-shadow: 0px 0px 10px 1px black;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 60px;
+}
+p {
+    color: rgb(228, 228, 228);
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.8);
+}
